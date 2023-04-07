@@ -17,7 +17,7 @@ User user_id during session user_session added to shopping cart (property event_
 
 ## File structure
 
-| Property |	Description|
+| Property |	Description |
 | --- | --- |
 | **event_time** | Time when event happened at (in UTC). |
 | **event_type** | Only one kind of event: purchase. |
@@ -31,14 +31,10 @@ User user_id during session user_session added to shopping cart (property event_
 
 ## Event types
 ### Events can be:
-
-**view** - a user viewed a product
-
-**cart** - a user added a product to shopping cart
-
-**remove_from_cart** - a user removed a product from shopping cart
-
-**purchase** - a user purchased a product
+| **view** | a user viewed a product |
+| **cart** | a user added a product to shopping cart |
+| **remove_from_cart** | a user removed a product from shopping cart |
+| **purchase** | a user purchased a product |
 
 ## Multiple purchases per session
 A session can have multiple purchase events. It's ok, because it's a single order.
