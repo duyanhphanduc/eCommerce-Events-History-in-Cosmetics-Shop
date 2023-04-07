@@ -41,3 +41,16 @@ User user_id during session user_session added to shopping cart (property event_
 
 ## Multiple purchases per session
 A session can have multiple purchase events. It's ok, because it's a single order.
+
+----
+# Questions I'm trying to solve from provided information:
+1. What are the most frequently purchased products/categories in the cosmetics online store?
+2. What is the average price of a product in the cosmetics online store?
+3. What are the most popular brands in the cosmetics online store?
+4. How often do users add items to their shopping cart but not complete a purchase?
+5. What is the conversion rate from cart to purchase?
+6. How long do users typically spend in a single session on the cosmetics online store?
+7. What is the distribution of user sessions across different times of day and days of the week?
+8. How do product/category popularity and purchase patterns vary across different user demographics (e.g. age, gender, location)?
+9. What is the average order value in the cosmetics online store?
+10. What is the customer retention rate over time?
