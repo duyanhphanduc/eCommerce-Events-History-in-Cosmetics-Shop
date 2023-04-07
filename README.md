@@ -19,11 +19,11 @@ User user_id during session user_session added to shopping cart (property event_
 
 | Property |	Description|
 | --- | --- |
-| **event_time** |	Time when event happened at (in UTC). |
+| **event_time** | Time when event happened at (in UTC). |
 
-| **event_type** |	Only one kind of event: purchase. |
+| **event_type** | Only one kind of event: purchase. |
 
-| **product_id** |ID of a product |
+| **product_id** | ID of a product |
 
 | **category_id** |	Product's category ID |
 
