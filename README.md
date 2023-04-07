@@ -32,6 +32,7 @@ User user_id during session user_session added to shopping cart (property event_
 ## Event types
 ### Events can be:
 
+| Property |	Description |
 | --- | --- |
 | **view** | a user viewed a product |
 | **cart** | a user added a product to shopping cart |
