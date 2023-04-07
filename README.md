@@ -1,6 +1,11 @@
-# eCommerce-behavior-data-from-multi-category-store
-This dataset contains 20M users' events from eCommerce website
+# eCommerce Events History in Cosmetics Shop
+## About
+This file contains behavior data for 5 months (Oct 2019 – Feb 2020) from a medium cosmetics online store.
 
+Each row in the file represents an event. All events are related to products and users. Each event is like many-to-many relation between products and users.
+
+Data collected by Open CDP project. Feel free to use open source customer data platform.
+Source: https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop
 ## How to read it
 
 There are different types of events. See below.
