@@ -1,5 +1,14 @@
-This repository provides an analysis of the events that occurred in a cosmetics online store. The data contains various types of events, such as view, cart, remove_from_cart, and purchase. Each event includes properties such as event_time, product_id, category_id, category_code, brand, price, user_id, and user_session.
+#About Dataset
+##About
+This file contains behavior data for 5 months (Oct 2019 – Feb 2020) from a medium cosmetics online store.
 
+Each row in the file represents an event. All events are related to products and users. Each event is like many-to-many relation between products and users.
+
+Data collected by Open CDP project. Feel free to use open source customer data platform.****
+
+This repository provides an analysis of the events that occurred in a cosmetics online store. The data contains various types of events, such as view, cart, remove_from_cart, and purchase. Each event includes properties such as event_time, product_id, category_id, category_code, brand, price, user_id, and user_session.
+Source: https://www.kaggle.com/datasets/mkechinov/ecommerce-events-history-in-cosmetics-shop
+--- 
 The main objective of this analysis is to answer questions related to the cosmetics online store's performance and user behavior, such as identifying the most frequently purchased products/categories, the average price of a product, the most popular brands, the cart abandonment rate, the conversion rate, the session duration, and the distribution of user sessions based on different times of day and days of the week.
 
 By analyzing the data, we can gain valuable insights into the cosmetics online store's performance, which can help improve user experience, increase sales, and optimize marketing strategies. This repository includes the analysis code, findings, and visualizations to provide a comprehensive understanding of the cosmetics online store's performance and user behavior.
