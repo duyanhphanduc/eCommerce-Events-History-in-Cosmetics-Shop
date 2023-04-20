@@ -1,10 +1,16 @@
+This repository provides an analysis of the events that occurred in a cosmetics online store. The data contains various types of events, such as view, cart, remove_from_cart, and purchase. Each event includes properties such as event_time, product_id, category_id, category_code, brand, price, user_id, and user_session.
+
+The main objective of this analysis is to answer questions related to the cosmetics online store's performance and user behavior, such as identifying the most frequently purchased products/categories, the average price of a product, the most popular brands, the cart abandonment rate, the conversion rate, the session duration, and the distribution of user sessions based on different times of day and days of the week.
+
+By analyzing the data, we can gain valuable insights into the cosmetics online store's performance, which can help improve user experience, increase sales, and optimize marketing strategies. This repository includes the analysis code, findings, and visualizations to provide a comprehensive understanding of the cosmetics online store's performance and user behavior.
+
 ## How to read it
 
 There are different types of events. See below.
 
 ## Semantics (or how to read it):
 
-User user_id during session user_session added to shopping cart (property event_type is equal cart) product product_id of brand brand of category category_code (category_code) with price price at event_time
+User "user_id" during session user_session added to shopping cart (property event_type is equal cart) product product_id of brand brand of category category_code (category_code) with price price at event_time
 
 ## File structure
 
@@ -42,6 +48,3 @@ A session can have multiple purchase events. It's ok, because it's a single orde
 5. What is the conversion rate from cart to purchase?
 6. How long do users typically spend in a single session on the cosmetics online store?
 7. What is the distribution of user sessions across different times of day and days of the week?
-8. How do product/category popularity and purchase patterns vary across different user demographics (e.g. age, gender, location)?
-9. What is the average order value in the cosmetics online store?
-10. What is the customer retention rate over time?
