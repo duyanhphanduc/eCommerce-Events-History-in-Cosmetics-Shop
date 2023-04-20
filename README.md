@@ -1,5 +1,7 @@
-#About Dataset
-##About
+# About Dataset
+
+## About
+
 This file contains behavior data for 5 months (Oct 2019 – Feb 2020) from a medium cosmetics online store.
 
 Each row in the file represents an event. All events are related to products and users. Each event is like many-to-many relation between products and users.
